@@ -19,14 +19,14 @@ Several drugs slow multiple sclerosis. None has been shown to repair the damage.
 
 Each part is useful alone. They feed each other in the order map, gauge, split, case.
 
-## Where it stands on 2026-11-23
+## Where it stands on 2026-11-25
 
 | Part | Version | Result |
 |---|---|---|
 | RepairMap | v0.1.0 | 64 trials of 39 agents; 63 rows checked against their source, most against the abstract only. On a biomarker main outcome: 4 positive, 1 mixed, 8 negative. On a functional main outcome: 1 positive, 1 mixed, 9 negative. |
 | RepairSplit | v0.1.0 | In simulation, none of the three published positive trial designs can tell "some people responded" from "everyone shifted a little": 5 to 36 percent power for an even split at the reported effect. Not yet run on patient data, which is available on request only. |
 | RepairCase | v0.1.0 | No approved drug reaches the bar of 4 of 7 points set in advance. Best available: metformin plus clemastine at 3 points, not cleared. |
-| RepairGauge | in progress | First code is in; the known-answer results and write-up are not done. |
+| RepairGauge | v0.1.0 | On planted recovery in same-day healthy MTR scans (MIRROR, four held-out subjects): 95 percent of fully recovered lesions called repaired, no false "repaired" among judged lesions. ihMTR is too noisy to judge 9 lesions in 10. A one-voxel misalignment between visits gives 35 percent false repair calls on the phantom. No patient data yet. |
 
 Each repo's README has the detail and the limits.
 
