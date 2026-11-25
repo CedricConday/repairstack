@@ -10,6 +10,8 @@ Several drugs slow multiple sclerosis. None has been shown to repair the damage.
 
 ## The four parts
 
+All four parts are on PyPI since 2026-11-25: `pip install repairmap repairgauge repairsplit repaircase`.
+
 | Part | Repo | What it is |
 |---|---|---|
 | RepairMap | [repairmap](https://github.com/CedricConday/repairmap) | Every repair trial in MS in one checked table: drug, mechanism, who was tested, what was measured, what happened, where it is written down. |
